@@ -1,0 +1,85 @@
+.app-layout {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.py-12 {
+    padding-top: 12rem;
+}
+
+.max-w-7xl {
+    max-width: 7xl;
+    margin: 0 auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sm:px-6 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.lg:px-8 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.shadow-sm {
+    box-shadow: 0 .15rem .25rem rgba(0, 0, 0, .5);
+}
+
+.sm:rounded-lg {
+    border-radius: .4rem;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.bg-gray-200 {
+    background-color: #f8f9fa;
+}
+
+.border-b {
+    border-bottom: 1px solid #ebedf0;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #eee;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-muted {
+    color: #777;
+}

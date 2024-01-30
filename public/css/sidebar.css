@@ -1,0 +1,29 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    z-index: 100;
+}
+
+.sidebar .nav {
+    margin-bottom: 0;
+}
+
+.sidebar .nav-pills > li {
+    width: 100%;
+}
+
+.sidebar .nav-pills > li > a {
+    text-align: center;
+    font-size: 16px;
+}
+
+.sidebar .nav-pills > li.active > a {
+    background-color: #fff;
+    color: #000;
+}
+
